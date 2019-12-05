@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
+
+body{
+	background-color: rgb(240,240,240) !important;
+}
+
+body{
+  font-family: 'Open Sans' !important;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Montserrat' !important;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid orange;
+	box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
+	padding: 0px 20px;
+	background-color: white;
+	height: 120px;
+}
+
+.navbar img{
+	object-fit: cover;
+	width: 70px;
+}
+
+.navbar ul{
+	display: inline;
+	list-style: none;
+}
+.navbar li{
+	display: inline;
+	padding: 0px 20px;
+}
+
+.navbar-right{
+	display: flex;
+	align-items: center;
+}
+.navbar h2{
+	margin: 0;
+}
+.navbar-left{
+	display: flex;
+	align-items: center;
+	color: black;
+	transition: 0.2s;
+}
+.navbar-left:hover{
+	color: orange;
+	text-decoration: none;
+	transition: 0.2s;
+}
+.navbar-left img{
+	margin: 0px 20px;
+}
+.navbar-left a{
+  text-decoration: none;
+  color: black;
+}
+.navbar-left>a:hover{
+  text-decoration: none;
+  color: black;
+}
+.navbar-left p{
+	margin-bottom: 0px;
+}
+
+.navbar-right ul{
+  margin: 0;
+}
+
+.navbar-right a{
+  color: black;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.navbar-right a:hover{
+  color: orange;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.grid-activites{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.grid-activites>div{
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.4);
+	margin: 10px 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.activities img{
+	width: 200px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 5px;
+	box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
+}
+.activities h2{
+	font-size: 20px;
+	text-decoration: underline;
+	font-weight: lighter;
+	margin-bottom: 20px;
+}
+.activities h1{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: 22px;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+#historique{
+	background-color: white;
+	margin: 50px auto;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.4);
+}
+#historique div{
+	display: flex;
+	align-items: flex-start;
+	padding: 0px 20px;
+	padding-bottom: 30px;
+}
+#historique p{
+	flex-grow: 1;
+	margin-right: 30px;
+}
+
+#historique h1{
+	font-size: 24px;
+	text-decoration: underline;
+	padding: 30px 0px;
+
+}
+
+#historique img{
+	object-fit: cover;
+	height: 70px;
+	width: 70px;
+}
+
+#carouselExampleControls img{
+	height: 400px;
+	object-fit: cover;
+}
+
+#captioncarrouseldown strong{
+	font-size: 22px;
+	color: orange;
+}
+#captioncarrouseldown-p strong{
+	font-size: 20px;
+	color: #f45905;
+}
+#captioncarrouseldown-p strong, #captioncarrouseldown strong{
+  font-weight: bolder;
+  background-color: rgba(0,0,0,0.7);
+
+  padding: 3px 5px;
+  text-shadow: 0px 0px 1px rgba(0,0,0,1);
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #323643;
+  height: 150px;
+  color: white;
+}
+
+.btn-historique{
+	color: white;
+	font-weight: bolder;
+}
+
+.footer div{
+  margin: 0px 80px;
+}
+
+.footer p{
+  margin: 0px;
+  text-align: right;
+}
+
+.footer-left i{
+  color: #ef4339;
+  font-size: 21px;
+  transition: 0.3s;
+}
+
+.footer-left a:hover{
+  opacity: 0.7;
+  transition: 0.3s;
+}
+.footer p i{
+  color: red;
+}
+
+
+.footer-left table
+{
+    border-collapse: collapse;
+    text-align: center;
+}
+.footer-left td, .footer-left th
+{
+    border: 1.5px solid orange;
+    padding: 5px 10px;
+}
+.footer-left th{
+  text-decoration: underline;
+}
+.footer-center{
+	border: 1px solid orange;
+}
+.footer-center ul{
+	margin-bottom: 0px;
+}
